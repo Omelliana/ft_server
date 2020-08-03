@@ -18,20 +18,14 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
 
-/** MySQL database username */
-define( 'DB_USER', 'wordpress_user' );
+define( 'DB_USER', 'root' );
 
-/** MySQL database password */
-define( 'DB_PASSWORD', '123456' );
+define( 'DB_PASSWORD', '' );
 
-/** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
-/** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
@@ -45,7 +39,7 @@ define( 'DB_COLLATE', '' );
  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
  *
  * @since 2.6.0
- * 
+ *
  */
     define('AUTH_KEY',         '9s&0S`X`U+_,Bs2kfs+$1;H}0+O=,34XHMl0NJz]FP1gk _2/`Dv~8%C#tRSP#wY');
     define('SECURE_AUTH_KEY',  'kV1A,ymTjG+[GrfQt-/do93x3px^e-K}6)gX1`}.MU2a5zii-RMNg6fhu1>JkoRP');
@@ -59,8 +53,6 @@ define( 'DB_COLLATE', '' );
     $table_prefix = 'wp_';
 
     define( 'WP_DEBUG', false );
-
-/* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
     if ( ! defined( 'ABSPATH' ) ) {
